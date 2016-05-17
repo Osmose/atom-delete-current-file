@@ -1,6 +1,6 @@
 {
   "name": "atom-delete-current-file",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "./lib/delete-current-file.js",
   "description": "Command to delete the active file.",
   "activationCommands": {
