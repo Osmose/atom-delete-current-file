@@ -1,0 +1,27 @@
+{
+  "name": "atom-delete-current-file",
+  "version": "0.1.0",
+  "main": "./lib/delete-current-file.js",
+  "description": "Command to delete the active file.",
+  "activationCommands": {
+    "atom-workspace": [
+      "delete-current-file:delete"
+    ]
+  },
+  "keywords": [
+    "atom",
+    "delete",
+    "file"
+  ],
+  "repository": "https://github.com/Osmose/atom-delete-current-file",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.7.3"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.35",
+    "babel-eslint": "^5.0.0",
+    "eslint": "^1.10.3"
+  }
+}

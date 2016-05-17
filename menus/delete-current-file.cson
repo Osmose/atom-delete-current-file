@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Delete Current File'
+      'submenu': [
+        {
+          'label': 'Delete Current File'
+          'command': 'delete-current-file:delete'
+        }
+      ]
+    ]
+  }
+]
